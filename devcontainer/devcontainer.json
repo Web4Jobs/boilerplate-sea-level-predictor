@@ -1,0 +1,9 @@
+// The Dev Container format allows you to configure your environment. At the heart of it
+// is a Docker image or Dockerfile which controls the tools available in your environment.
+//
+// See https://aka.ms/devcontainer.json for more information.
+{
+	"name": "Python DevContainer",
+	"image": "mcr.microsoft.com/devcontainers/python",
+	"postCreateCommand": "pip install -r requirements.txt"
+}
